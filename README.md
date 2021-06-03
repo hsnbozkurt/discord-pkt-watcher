@@ -40,9 +40,9 @@ This project helps you get better information about your wallet in discord!
 # Multiple Wallet  
   - Change config to  
   ```javascript
-      const discord = require('discord.js')
-      const wallet1 = {hook:new discord.WebhookClient('WebHookID','WebHookToken'),wallet:'PktWalletAddress'}
-      const wallet2 = {hook:new discord.WebhookClient('WebHookID','WebHookToken'),wallet:'PktWalletAddress'}
-      module.exports = [wallet1,wallet2]
+const discord = require('discord.js')
+const wallet1 = {hook:new discord.WebhookClient('WebHookID','WebHookToken'),wallet:'PktWalletAddress'}
+const wallet2 = {hook:new discord.WebhookClient('WebHookID','WebHookToken'),wallet:'PktWalletAddress'}
+module.exports = [wallet1,wallet2]
 ```  
 Edit WebHookID, WebHookToken and PktWalletAddress lines
