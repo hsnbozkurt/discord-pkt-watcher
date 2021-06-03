@@ -35,7 +35,7 @@ This project helps you get better information about your wallet in discord!
 
 6 - Run Project  
    - Open CMD or Terminal in project directory
-   - Run ``npm index.js``
+   - Run ``node index.js``
 
 # Multiple Wallet  
   - Change config to  
