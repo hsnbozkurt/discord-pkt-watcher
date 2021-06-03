@@ -74,7 +74,7 @@ setInterval(() => {
                 const fulltrx = showpkt(trx.value)
                 const price = parseFloat(json3.price)
                 const emb = new discord.MessageEmbed()
-                .setAuthor('💸 İncome','https://media.discordapp.net/attachments/824677886740004884/849539298210742302/6c42ea9f3e233d9110e04dcd87db55da.png') 
+                .setAuthor('💸 Income','https://media.discordapp.net/attachments/824677886740004884/849539298210742302/6c42ea9f3e233d9110e04dcd87db55da.png') 
                 .setDescription(wallet.wallet+' address got an income')
                 .addField('Total PKT for Block',fulltrx,true)
                 .addField('Last Income',pktrecived,true)
