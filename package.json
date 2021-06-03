@@ -1,0 +1,30 @@
+{
+  "name": "discord-pkt-watcher",
+  "version": "1.0.0",
+  "description": "Discord Pkt Watcher",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SadMap/discord-pkt-watcher.git"
+  },
+  "keywords": [
+    "pkt",
+    "pkt-coin",
+    "pkt-watcher"
+  ],
+  "author": "SadMap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SadMap/discord-pkt-watcher/issues"
+  },
+  "homepage": "https://github.com/SadMap/discord-pkt-watcher#readme"
+}
